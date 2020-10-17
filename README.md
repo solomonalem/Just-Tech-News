@@ -4,7 +4,7 @@
 
 ## Description
 
-Its an API built with MySQL database using Sequelize ORM. It follows all the necessary procedures of RESTful API's.As It is a news posting web aplication it allows to create a user and user can post a post ,comment in apost and also user can vote in any posted news.
+Its an API built with MySQL database using Sequelize ORM. It follows all the necessary procedures of RESTful APIs.As It is a news posting web application it allows to create a user and user can create and delete a post ,comment in apost and also user can vote in any posted news.
 
 ## Table of Contents
 
