@@ -8,12 +8,12 @@ Its an API built with MySQL database using Sequelize ORM. It follows all the nec
 
 ## Table of Contents
 
-- [Installation](#Built with)
+- [Built](#built)
 - [Usage](#usage)
 - [Credits](#credits)
 - [License](#license)
 
-## Built with
+## Built
 - Node
 - mySQL
 - Sequelize
