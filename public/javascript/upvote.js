@@ -15,13 +15,13 @@ async function upvoteClickHandler(event) {
         headers: {
           'Content-Type': 'application/json'
         }
-      });
+    });
       
-      if (response.ok) {
+    if (response.ok) {
         document.location.reload();
-      } else {
+    } else {
         alert(response.statusText);
-      }
-  }
+    }
+}
   
 document.querySelector('.upvote-btn').addEventListener('click', upvoteClickHandler);
