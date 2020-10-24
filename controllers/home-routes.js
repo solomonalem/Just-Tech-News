@@ -3,6 +3,7 @@ const sequelize = require('../config/connection');
 const { Post, User, Comment } = require('../models');
 
 
+// homepage
 
   router.get('/', (req, res) => {
     // console.log(req.session);
@@ -44,6 +45,8 @@ const { Post, User, Comment } = require('../models');
       });
   });
 
+// login
+
   router.get('/login', (req, res) => {
     if (req.session.loggedIn) {
       res.redirect('/');
@@ -53,8 +56,8 @@ const { Post, User, Comment } = require('../models');
     res.render('login');
   });
 
+ // single-post
  
-
   router.get('/post/:id', (req, res) => {
     Post.findOne({
       where: {
